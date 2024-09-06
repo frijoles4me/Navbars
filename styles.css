@@ -1,29 +1,74 @@
 .grid-container {
+  border: solid .5px;
+  border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
   grid-template-columns: auto auto auto auto;
-  padding: 10px;
+  padding: 5px;
 }
 .grid-item {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #f0f8ff;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  flex-grow: 1;
+  /* same class for eahc div */
+  flex-grow: 1; 
   flex-basis: 200;
 }
 
 .home{
-  background-color: #f0f8ff;
+  background-color: #fbfcf8;
   background-image: url(img/home.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 55px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+}
+
+.home:hover{
+ border:solid 2.5px;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.services{
+  background-color: #fbfcf8;
+  background-image: url(img/services.png);
   background-repeat: no-repeat;
   height: 50px;
   width: 55px;
   border-radius: 50px;
 }
 
-.home:hover{
+.services:hover{
+ border:solid 3px;
+}
+
+.contacts{
+  background-color: #fbfcf8;
+  background-image: url(img/contacts.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 55px;
+  border-radius: 50px;
+}
+
+.contacts:hover{
+ border:solid 3px;
+}
+
+.about{
+  background-color: #fbfcf8;
+  background-image: url(img/about.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 55px;
+  border-radius: 50px;
+}
+
+.about:hover{
  border:solid 3px;
 }
 
