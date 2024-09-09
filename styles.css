@@ -7,7 +7,7 @@
   padding: 5px;
 }
 .grid-item {
-  background-color: #f0f8ff;
+  background-color: #ffd803;
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
   font-size: 30px;
@@ -72,15 +72,39 @@
  border:solid 3px;
 }
 
-/* @media screen and (max-width: 400px) {
-  button.home{
-    display: none;
-  }
+#textField{
+  background-color:#bae8e8;
+  margin-top: 10px;
+  border: solid 1px;
+}
+
+.row{
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.col{
+  border: solid;
+  background-color: #f3fbfb;
+  padding: 10px;
   
-} */
-/* @media screen and (max-width: 1000px) {
-  a.text{
-    display: none;
-  }
-  
-} */
+}
+
+.col1{
+  margin-right: 2.5px;
+}
+
+.col2{
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  background-image: url(img/city\(5\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+
+.col3{
+  margin-left: 2.5px;
+}
+
