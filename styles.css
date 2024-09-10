@@ -4,13 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   grid-template-columns: auto auto auto auto;
-  padding: 5px;
 }
 .grid-item {
-  background-color: #ffd803;
+  background-color: #fff1a3fd;
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
-  font-size: 30px;
   text-align: center;
   /* same class for eahc div */
   flex-grow: 1; 
@@ -31,6 +29,7 @@
 .home:hover{
  border:solid 2.5px;
  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+ transform: scale(.9);
 }
 
 .services{
@@ -101,6 +100,7 @@
   background-image: url(img/city\(5\).jpg);
   background-repeat: no-repeat;
   background-position: center;
+
   height: 600px;
 }
 
